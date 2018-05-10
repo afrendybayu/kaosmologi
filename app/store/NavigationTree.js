@@ -13,6 +13,7 @@ Ext.define('kaos.store.NavigationTree', {
             text: 'Dashboard',
             iconCls: 'x-fa fa-desktop',
             rowCls: 'nav-tree-badge nav-tree-badge-new',
+            viewType: 'pageblank',
 //            viewType: 'admindashboard',
             routeId: 'utama',           // routeId defaults to viewType
             leaf: true
